@@ -4,4 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/scene&font/main.unity
+    guid: 7b324174d7d758846ad118b895c31a81
+  - enabled: 1
+    path: Assets/scene&font/setting.unity
+    guid: 7707c96ae4bc139499010fd21e0af90e
+  - enabled: 1
+    path: Assets/scene&font/player.unity
+    guid: 22c0af7312b2b9940b0771faa0282383
