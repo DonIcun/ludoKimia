@@ -9,17 +9,18 @@ public class playerControl : MonoBehaviour {
 	public string[] player;
 	public InputField[] nama;
 	public Toggle[] rn;
-	public Toggle pl2, pl3, pl4;
+	public Toggle pl1, pl2, pl3, pl4;
 
 	// Use this for initialization
 	void Start () {
 		player = new string[4];
 		jumPlayer = 2;
 		pl2.isOn = true;
+		jumlahPlayer (jumPlayer);
 	}
 
 	public void jumlahPlayer(int jumlah){
-		jumPlayer = jumlah;
+		//jumPlayer = jumlah;
 		for (int i = 0; i < 4; i++) {
 			if (i < jumPlayer) {
 				rn [i].isOn = true;

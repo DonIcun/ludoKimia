@@ -4,28 +4,55 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class diceRoll : MonoBehaviour {
-
-	public Text hasilRandom;
-	public string nilaiDadu;
+	int langkah;
 	public Sprite[] dice;
-
-
-	System.Random randomDice = new System.Random();
-
+	private Image dadu;
+	public static bool isEnd = false;
+	private int player;
 	// Use this for initialization
 	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+		dadu = GetComponent<Image> ();
+		dice = Resources.LoadAll<Sprite>("DiceSides/");
+		//dadu.sprite = dice [1];
+		langkah = 0;
+		player = 0;
 	}
 
-	public void RollDice(){
-		int randNum = randomDice.Next (1, 7);
-		nilaiDadu = randNum.ToString();
-		hasilRandom.text = nilaiDadu;
-
+	public void Randomdice(){
+		StartCoroutine ("RollTheDice");
 	}
+	private IEnumerator RollTheDice(){
+		int randomDadu = 0;
+		int nilaiDadu = 0;
+		for (int i = 0; i <= 10; i++) {
+			//diberi nilai 8 untuk meningkatkan kesempatan nilai 6
+			randomDadu = Random.Range (0, 8);
+			//membuat maksimal nilai 6
+			if (randomDadu>=5){
+				nilaiDadu = 5;
+				dadu.sprite = dice [nilaiDadu];
+			}
+			else{
+				nilaiDadu = randomDadu;
+				dadu.sprite = dice [nilaiDadu];
+			}
+			yield return new WaitForSeconds (0.05f);
+		}
+		//percobaan
+		if (nilaiDadu >= 5) {
+			isEnd = true;
+			player += 1;
+		}
+
+
+		if (isEnd == true) {
+			memilihPlayer.indexPemain = player % 4;
+		}
+		langkah += 1;
+		int nilailog = nilaiDadu + 1;
+		Debug.Log ("Langkah: " + langkah + "dadu: "+ nilailog );
+		isEnd = false;
+	}
+
+
 }
