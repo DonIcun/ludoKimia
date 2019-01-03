@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2beeb329e152e9f44b7ea13aa5974f50, type: 3}
+  m_Name: soal25
+  m_EditorClassIdentifier: 
+  soalPertanyaan: Unsur dalam gas mulia yang memiliki jumlah elektron valensinya 2
+    elektron adalah ... .
+  jawabanBenar: 1
+  pilihanJawaban:
+  - {fileID: 11400000, guid: e37412900770cba4693caf48db4a55ba, type: 2}
+  - {fileID: 11400000, guid: 51acd9d1cbb64744a835b1b3a7894d9f, type: 2}
+  - {fileID: 11400000, guid: 6626d9b8d03cbc549b6a7b407c34b838, type: 2}
+  - {fileID: 11400000, guid: c224084bf88f45d45a173a7e43637367, type: 2}

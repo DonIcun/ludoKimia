@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2beeb329e152e9f44b7ea13aa5974f50, type: 3}
+  m_Name: soal1
+  m_EditorClassIdentifier: 
+  soalPertanyaan: Nama lain dari gas mulia adalah... .
+  jawabanBenar: 4
+  pilihanJawaban:
+  - {fileID: 11400000, guid: d9b048d0d458ec24d9589a6fc1820727, type: 2}
+  - {fileID: 11400000, guid: 6d4fc04260fe43d499d230b9a1dd6d60, type: 2}
+  - {fileID: 11400000, guid: 192f5d8c03b17da498b0d3a9ad5a5dec, type: 2}
+  - {fileID: 11400000, guid: 8c6669c3b1868a34f97273a2799d4075, type: 2}

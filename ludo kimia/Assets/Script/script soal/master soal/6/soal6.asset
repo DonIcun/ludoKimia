@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2beeb329e152e9f44b7ea13aa5974f50, type: 3}
+  m_Name: soal6
+  m_EditorClassIdentifier: 
+  soalPertanyaan: Pada umumnya, gas mulia diperoleh dari... .
+  jawabanBenar: 3
+  pilihanJawaban:
+  - {fileID: 11400000, guid: e2d65bb13d1aea546ab28083b5ab33f3, type: 2}
+  - {fileID: 11400000, guid: 78453924e174383498d3bde417050a77, type: 2}
+  - {fileID: 11400000, guid: 44eeacda2cee9fb4ea481aa9165d4996, type: 2}
+  - {fileID: 11400000, guid: 452abeb29c34e5c449576d26f29d32a3, type: 2}

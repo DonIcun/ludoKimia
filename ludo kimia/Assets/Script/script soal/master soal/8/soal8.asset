@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2beeb329e152e9f44b7ea13aa5974f50, type: 3}
+  m_Name: soal8
+  m_EditorClassIdentifier: 
+  soalPertanyaan: Semakin besar nomor atom dalam golongan gas mulia, maka jari-jari
+    atomnya akan... .
+  jawabanBenar: 1
+  pilihanJawaban:
+  - {fileID: 11400000, guid: 924e88377e9f7df489378c9265ad79d2, type: 2}
+  - {fileID: 11400000, guid: f6d1938ef5efe3045849d6e1c68577f8, type: 2}
+  - {fileID: 11400000, guid: 78ab8f573ea485646a57375d5462d152, type: 2}
+  - {fileID: 11400000, guid: bbe152c4fc0af304b9b5cfae2171e9ea, type: 2}

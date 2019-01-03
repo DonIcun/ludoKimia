@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2beeb329e152e9f44b7ea13aa5974f50, type: 3}
+  m_Name: soal31
+  m_EditorClassIdentifier: 
+  soalPertanyaan: Xenon tetrafluorida bersifat... .
+  jawabanBenar: 4
+  pilihanJawaban:
+  - {fileID: 11400000, guid: 674e604b13f03a445a2fdc027667902b, type: 2}
+  - {fileID: 11400000, guid: b87442115eb5a6343bf5ef604bde859b, type: 2}
+  - {fileID: 11400000, guid: 1c5fa3b22f805d84a808d6aad5271626, type: 2}
+  - {fileID: 11400000, guid: 1e14f2046982ca145a710fc0488511a4, type: 2}

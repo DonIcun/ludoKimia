@@ -17,9 +17,3 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scene&font/bermain.unity
     guid: bb67e9ab3a4908643a355feaf2241acc
-  - enabled: 1
-    path: Assets/Scripts/Game.unity
-    guid: 2459656283361074c8fba6b42fc9d110
-  - enabled: 1
-    path: Assets/Scripts/NilaiJawaban.unity
-    guid: d5db2d8d9185d2b41a73bfb33ff3f07b

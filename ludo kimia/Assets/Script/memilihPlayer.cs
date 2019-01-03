@@ -8,7 +8,7 @@ public class memilihPlayer : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		transform.position = titikDadu [diceRoll.player].transform.position;
+		//transform.position = titikDadu [diceRoll.player].transform.position;
 	}
 	
 	// Update is called once per frame

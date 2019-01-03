@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2beeb329e152e9f44b7ea13aa5974f50, type: 3}
+  m_Name: soal15
+  m_EditorClassIdentifier: 
+  soalPertanyaan: Unsur dalam gas mulia yang diperoleh dari rongga batuan uranium
+    adalah... .
+  jawabanBenar: 3
+  pilihanJawaban:
+  - {fileID: 11400000, guid: 0dbabfd3ae9ced94c85ec4a2b9e0334d, type: 2}
+  - {fileID: 11400000, guid: 59794aac3fff3e14c998de42395c4a15, type: 2}
+  - {fileID: 11400000, guid: 1c840c1f2e9856c48a7a92cc62caac2a, type: 2}
+  - {fileID: 11400000, guid: 3ba92c7be46b1094a866e4236dc43b30, type: 2}

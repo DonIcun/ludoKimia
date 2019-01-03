@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2beeb329e152e9f44b7ea13aa5974f50, type: 3}
+  m_Name: soal41
+  m_EditorClassIdentifier: 
+  soalPertanyaan: Kegunaan unsur neon dalam kehidupan sehari-hari adalah... .
+  jawabanBenar: 2
+  pilihanJawaban:
+  - {fileID: 11400000, guid: e937a2fe0a59c5b44a0ccd1e69b6301b, type: 2}
+  - {fileID: 11400000, guid: 031a63f02640de54fab92e1da9f9450d, type: 2}
+  - {fileID: 11400000, guid: 1a33d544724744a4ea06e862d09978d2, type: 2}
+  - {fileID: 11400000, guid: f20df2c6941689143aa27f851e3d4ea2, type: 2}

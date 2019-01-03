@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2beeb329e152e9f44b7ea13aa5974f50, type: 3}
+  m_Name: soal48
+  m_EditorClassIdentifier: 
+  soalPertanyaan: Unsur dalam gas mulia yang digunakan untuk membius pasien-pasien
+    dalam operasi besar adalah... .
+  jawabanBenar: 2
+  pilihanJawaban:
+  - {fileID: 11400000, guid: 2f76f00ed9a8038439407df20faa7691, type: 2}
+  - {fileID: 11400000, guid: 83df546db07481c4ba1bf75bd08de794, type: 2}
+  - {fileID: 11400000, guid: e1b6fbca416990e4ea57da42e7c50635, type: 2}
+  - {fileID: 11400000, guid: 74362093dc6b36c42b5682554ed5f7bc, type: 2}

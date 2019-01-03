@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2beeb329e152e9f44b7ea13aa5974f50, type: 3}
+  m_Name: soal27
+  m_EditorClassIdentifier: 
+  soalPertanyaan: Ketika gas helium didinginkan hingga pada titik paling dingin yang
+    dapat dicapai, gas helium akan menjadi... .
+  jawabanBenar: 2
+  pilihanJawaban:
+  - {fileID: 11400000, guid: feed344004301af409b8aff7be417433, type: 2}
+  - {fileID: 11400000, guid: 36dff8c6693041e48b05c7fc089f2bcf, type: 2}
+  - {fileID: 11400000, guid: 07dccbfbcb0e6bd4585c22a2bed54eec, type: 2}
+  - {fileID: 11400000, guid: 09fcd5581ca7250479aef353ac49e312, type: 2}

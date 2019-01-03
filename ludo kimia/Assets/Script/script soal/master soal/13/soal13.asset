@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2beeb329e152e9f44b7ea13aa5974f50, type: 3}
+  m_Name: soal13
+  m_EditorClassIdentifier: 
+  soalPertanyaan: Apa yang terjadi pada unsur dalam golongan gas mulia ketika energi-energi
+    molekulnya dilemahkan pada suhu yang sangat rendah ?
+  jawabanBenar: 0
+  pilihanJawaban:
+  - {fileID: 11400000, guid: 18703011b9651db4a8f44fe0f9dae6a0, type: 2}
+  - {fileID: 11400000, guid: 7545606742fb5714abe42244f565a545, type: 2}
+  - {fileID: 11400000, guid: 68c10990d4653cb438b5da54e0c75cde, type: 2}
+  - {fileID: 11400000, guid: 76e991172ef4290498de7a9c6381a785, type: 2}

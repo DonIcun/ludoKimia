@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2beeb329e152e9f44b7ea13aa5974f50, type: 3}
+  m_Name: soal45
+  m_EditorClassIdentifier: 
+  soalPertanyaan: Unsur dalam gas mulia yang digunakan sebagai atmosfer inert pada
+    proses pengelasan adalah... .
+  jawabanBenar: 3
+  pilihanJawaban:
+  - {fileID: 11400000, guid: 35629d30097d8c74e87ee711ab9fdf4b, type: 2}
+  - {fileID: 11400000, guid: 8a4123efa31b73e46b342ccc2bff6662, type: 2}
+  - {fileID: 11400000, guid: 92eecedffdd282d42b0d3fbedc2877f1, type: 2}
+  - {fileID: 11400000, guid: aa0b2b1a39b85ee4d874be98bbdc4d57, type: 2}

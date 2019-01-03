@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2beeb329e152e9f44b7ea13aa5974f50, type: 3}
+  m_Name: soal44
+  m_EditorClassIdentifier: 
+  soalPertanyaan: Unsur dalam golongan gas mulia yang memiliki porsi yang tinggi dalam
+    atmosfer adalah... .
+  jawabanBenar: 4
+  pilihanJawaban:
+  - {fileID: 11400000, guid: de7373cd0e6a0bd4e88fa81683b18083, type: 2}
+  - {fileID: 11400000, guid: e49535deaa8399041ba2de32d03cf4a7, type: 2}
+  - {fileID: 11400000, guid: aac5c8bc8a9d64042b1a53a2e5d6bbb5, type: 2}
+  - {fileID: 11400000, guid: e511760ff779c27469300c21b2537bb1, type: 2}

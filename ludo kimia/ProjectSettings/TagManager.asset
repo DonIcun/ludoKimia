@@ -8,6 +8,7 @@ TagManager:
   - plKuning
   - plMerah
   - plHijau
+  - panelplayer
   layers:
   - Default
   - TransparentFX
@@ -44,4 +45,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: pion1
+    uniqueID: 1904842813
+    locked: 0
+  - name: pion2
+    uniqueID: 3498776621
+    locked: 0
+  - name: pion3
+    uniqueID: 1635149589
+    locked: 0
+  - name: pion4
+    uniqueID: 1297371469
     locked: 0

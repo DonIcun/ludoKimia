@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2beeb329e152e9f44b7ea13aa5974f50, type: 3}
+  m_Name: soal29
+  m_EditorClassIdentifier: 
+  soalPertanyaan: Xenon dengan fluorin akan membentuk tiga macam senyawa fluorida,yaitu...
+    .
+  jawabanBenar: 2
+  pilihanJawaban:
+  - {fileID: 11400000, guid: 515a201ca69b2a74d8136f2720927409, type: 2}
+  - {fileID: 11400000, guid: 641d57829acc84347843969086a252a9, type: 2}
+  - {fileID: 11400000, guid: e0f47941bc2d6b448aca36e2b524f328, type: 2}
+  - {fileID: 11400000, guid: e2c2fd3d641460948998959c2e6f9273, type: 2}

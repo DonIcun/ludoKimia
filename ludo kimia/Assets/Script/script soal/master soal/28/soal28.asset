@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2beeb329e152e9f44b7ea13aa5974f50, type: 3}
+  m_Name: soal28
+  m_EditorClassIdentifier: 
+  soalPertanyaan: Fluorida XeF2, XeF4, dan XeF6 diperoleh dengan cara... .
+  jawabanBenar: 4
+  pilihanJawaban:
+  - {fileID: 11400000, guid: fd1677211557d2d4b81374c5b3c75fb8, type: 2}
+  - {fileID: 11400000, guid: de5ebb550dfd28a4e8c6d97774228acf, type: 2}
+  - {fileID: 11400000, guid: bda9277b9c85ff94cb055d09b8d361a3, type: 2}
+  - {fileID: 11400000, guid: b026b5f5759a54746a452f8dbe1581f5, type: 2}

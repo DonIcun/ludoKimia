@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2beeb329e152e9f44b7ea13aa5974f50, type: 3}
+  m_Name: soal18
+  m_EditorClassIdentifier: 
+  soalPertanyaan: Unsur dalam gas mulia yang pertama kali ditemukan di atmosfer matahari
+    adalah... .
+  jawabanBenar: 4
+  pilihanJawaban:
+  - {fileID: 11400000, guid: 532dbf5c258690e4496d3bffdfe919ae, type: 2}
+  - {fileID: 11400000, guid: f3eeaa92fb892044e9971ea6d0d774d1, type: 2}
+  - {fileID: 11400000, guid: 230dc9ac18f6dc24c9f999b554ffef94, type: 2}
+  - {fileID: 11400000, guid: d59e6e7c1e9fe6c4aa17fb2ee24ff2c1, type: 2}

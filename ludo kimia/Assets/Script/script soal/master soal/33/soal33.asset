@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2beeb329e152e9f44b7ea13aa5974f50, type: 3}
+  m_Name: soal33
+  m_EditorClassIdentifier: 
+  soalPertanyaan: Senyawa oksida dari xenon yang berupa padatan cair tak berwarna,
+    mudah meledak dan bersifat oksidator kuat adalah... .
+  jawabanBenar: 1
+  pilihanJawaban:
+  - {fileID: 11400000, guid: 6981ca1bb7a221c4c8ddcff5a3ed0185, type: 2}
+  - {fileID: 11400000, guid: 9078c8446cee11846bd3afc7140bc317, type: 2}
+  - {fileID: 11400000, guid: 9e1bcee5bc5a4f044abd2952a8b16198, type: 2}
+  - {fileID: 11400000, guid: 648bd12f11f109d4dbe9f200f008aed1, type: 2}

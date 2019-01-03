@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2beeb329e152e9f44b7ea13aa5974f50, type: 3}
+  m_Name: soal7
+  m_EditorClassIdentifier: 
+  soalPertanyaan: Bagaimana nilai energi ionisasi dan afinitas elektron dalam gas
+    mulia ?
+  jawabanBenar: 2
+  pilihanJawaban:
+  - {fileID: 11400000, guid: b55479d45802a214db02dad4b2faf3de, type: 2}
+  - {fileID: 11400000, guid: 4ce5e10a883044244b8003f2dceed21a, type: 2}
+  - {fileID: 11400000, guid: d0652736fddf7014b8a8fc0e4acc07a3, type: 2}
+  - {fileID: 11400000, guid: fae3c5bf1111e6e4ca33ba61c3f36d4a, type: 2}

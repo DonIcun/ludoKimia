@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2beeb329e152e9f44b7ea13aa5974f50, type: 3}
+  m_Name: soal47
+  m_EditorClassIdentifier: 
+  soalPertanyaan: Unsur dalam gas mulia yang memberikan warna merah pada lampu reklame
+    adalah... .
+  jawabanBenar: 3
+  pilihanJawaban:
+  - {fileID: 11400000, guid: bb42a8d5bd33073478960b45fdc28b9c, type: 2}
+  - {fileID: 11400000, guid: b2c26195a81c0814e867641b2b11e188, type: 2}
+  - {fileID: 11400000, guid: f46ca5d2b892b614985f664b72d58b6b, type: 2}
+  - {fileID: 11400000, guid: 679543a40a9788c47bb146c40e91d2af, type: 2}

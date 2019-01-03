@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2beeb329e152e9f44b7ea13aa5974f50, type: 3}
+  m_Name: soal14
+  m_EditorClassIdentifier: 
+  soalPertanyaan: 'Mengapa kereaktifan gas mulia bertambah sesuai dengan pertambahan
+    jari-jari atomnya ( dari atas ke bawah ) ? '
+  jawabanBenar: 4
+  pilihanJawaban:
+  - {fileID: 11400000, guid: 055126e9414e3004aba20a5b8f27a3d6, type: 2}
+  - {fileID: 11400000, guid: 34805715fae611b49873481eae9ed143, type: 2}
+  - {fileID: 11400000, guid: 31c1afb9a8a8956489e49db9e412cc9d, type: 2}
+  - {fileID: 11400000, guid: b30695f2676dee5428f931a893c06819, type: 2}

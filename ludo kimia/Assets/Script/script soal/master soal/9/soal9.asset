@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2beeb329e152e9f44b7ea13aa5974f50, type: 3}
+  m_Name: soal9
+  m_EditorClassIdentifier: 
+  soalPertanyaan: Semakin besar nomor atom dalam golongan gas mulia, maka gaya dispersinya
+    akan... .
+  jawabanBenar: 2
+  pilihanJawaban:
+  - {fileID: 11400000, guid: b0c2616748a9f48459e0fbaa6049484b, type: 2}
+  - {fileID: 11400000, guid: a1b41455cea180240a799ed3e353db30, type: 2}
+  - {fileID: 11400000, guid: 8b1c891ba78a9144a849d728fa56ed0f, type: 2}
+  - {fileID: 11400000, guid: 7cff845a5dfb7ff4b9d7210016c6d100, type: 2}
