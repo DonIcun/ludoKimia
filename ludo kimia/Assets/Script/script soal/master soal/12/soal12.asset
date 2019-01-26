@@ -11,8 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2beeb329e152e9f44b7ea13aa5974f50, type: 3}
   m_Name: soal12
   m_EditorClassIdentifier: 
-  soalPertanyaan: Bagaimana titik didih dan titik leleh unsur dalam golongan gas mulia
-    ?
+  soalPertanyaan: Bagaimana titik didih dan titik leleh unsur dalam golongan gas mulia ?
   jawabanBenar: 2
   pilihanJawaban:
   - {fileID: 11400000, guid: 38e85b68bfd8a544782ff93b1c5a1507, type: 2}

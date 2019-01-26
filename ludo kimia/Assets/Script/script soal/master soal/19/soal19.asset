@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: soal19
   m_EditorClassIdentifier: 
   soalPertanyaan: 'Unsur gas mulia yang sukar bereaksi adalah. '
-  jawabanBenar: 0
+  jawabanBenar: 1
   pilihanJawaban:
   - {fileID: 11400000, guid: cfab97d11d87b1c47aab505703436e3a, type: 2}
   - {fileID: 11400000, guid: 1e70b13ccb5838d4ea33ef95135047e1, type: 2}

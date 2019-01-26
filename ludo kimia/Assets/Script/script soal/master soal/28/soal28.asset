@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2beeb329e152e9f44b7ea13aa5974f50, type: 3}
   m_Name: soal28
   m_EditorClassIdentifier: 
-  soalPertanyaan: Fluorida XeF2, XeF4, dan XeF6 diperoleh dengan cara... .
+  soalPertanyaan: "Fluorida XeFu\u2082, XeF\u2084, dan XeF\u2086 diperoleh dengan cara... ."
   jawabanBenar: 4
   pilihanJawaban:
   - {fileID: 11400000, guid: fd1677211557d2d4b81374c5b3c75fb8, type: 2}

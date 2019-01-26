@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class winCondition : MonoBehaviour {
 	public static int[] playerFinis;
-	public static GameObject canvasMenang,btLempar;
+	public static GameObject canvasMenang,btLempar,tabelmenang;
 	public static GameObject[] playermenang;
 	public static Sprite medali;
 	public static Text textmenang;
@@ -19,13 +19,11 @@ public class winCondition : MonoBehaviour {
 		playermenang[2] = GameObject.Find ("playerkuning");
 		playermenang[3] = GameObject.Find ("playerbiru");
 		playermenang[4] = GameObject.Find ("playermerah");
-//		playermenang = new List<GameObject>();
-//		playermenang.Insert (1,GameObject.Find ("playerhijau"));
-//		playermenang.Insert (2,GameObject.Find ("playerkuning"));
-//		playermenang.Insert (3,GameObject.Find ("playerbiru"));
-//		playermenang.Insert (4,GameObject.Find ("playermerah"));
+		btLempar = GameObject.Find ("ButtonLempar");
 		textmenang = GameObject.Find("TextMenang").GetComponent<Text>();
-		medali = Resources.Load<Sprite> ("crown");
+		medali = Resources.Load<Sprite> ("medal");
+		tabelmenang = GameObject.Find ("tabelMenang");
+		tabelmenang.SetActive (false);
 		canvasMenang.SetActive (false);
 //		textmenang.text = "selamat";
 
@@ -34,10 +32,17 @@ public class winCondition : MonoBehaviour {
 	public static void wincondition(int playerwin){
 		string textfinal;
 		canvasMenang.SetActive (true);
-		playermenang [playerwin].GetComponent<Image>().sprite	 = medali;
+		for (int i = 1; i <= 4; i++) {
+			if (i == playerwin) {
+				playermenang [playerwin].GetComponent<Image> ().sprite = medali;
+			} else {
+				playermenang [i].SetActive (false);
+			}
+		}
 		btLempar.SetActive (false);
 		textfinal = "player " + whowin[playerwin] + " menang";
 		textmenang.text = textfinal;
+		tabelmenang.SetActive (true);
 	}
 
 	public static void cekmenang(int playercek){
@@ -50,9 +55,8 @@ public class winCondition : MonoBehaviour {
 				wincondition (playercek);
 				}
 			}
-		Debug.Log ("pin " + whowin [playercek] + "finish sebanyak" + playerFinis [playercek]);
+			Debug.Log ("pin " + whowin [playercek] + "finish sebanyak" + playerFinis [playercek]);
 	}
-
 
 	}
 	

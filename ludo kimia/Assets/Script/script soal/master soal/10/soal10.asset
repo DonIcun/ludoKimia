@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: soal10
   m_EditorClassIdentifier: 
   soalPertanyaan: Kestabilan gas mulia dapat dilihat dari... .
-  jawabanBenar: 2
+  jawabanBenar: 4
   pilihanJawaban:
   - {fileID: 11400000, guid: 1849857e7b2e9364fae7124100e7236b, type: 2}
   - {fileID: 11400000, guid: c5622c58a6ffbdd4d813bb44d0027fe3, type: 2}

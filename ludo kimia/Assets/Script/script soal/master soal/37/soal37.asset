@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soalPertanyaan: Unsur yang digunakan untuk pengisi lampu iklan yang berwarna warni
     adalah... .
-  jawabanBenar: 0
+  jawabanBenar: 3
   pilihanJawaban:
   - {fileID: 11400000, guid: 9d2a49cea37acbc418b4bf98a681f242, type: 2}
   - {fileID: 11400000, guid: e535f39be21689a44807b3421b6da300, type: 2}

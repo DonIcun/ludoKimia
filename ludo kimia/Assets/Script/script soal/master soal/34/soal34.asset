@@ -11,11 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2beeb329e152e9f44b7ea13aa5974f50, type: 3}
   m_Name: soal34
   m_EditorClassIdentifier: 
-  soalPertanyaan: Mengapa unsur He, Ne dan Ar sampai sekarang belum berhasil disintesis
-    ?
+  soalPertanyaan: 
   jawabanBenar: 0
-  pilihanJawaban:
-  - {fileID: 11400000, guid: 213ac114523982f438f22a251d9e83bd, type: 2}
-  - {fileID: 11400000, guid: 88b30a2b5db37414a9b53b397d4df778, type: 2}
-  - {fileID: 11400000, guid: f45e49e42b07b3641b7d31dfb0e16ea4, type: 2}
-  - {fileID: 11400000, guid: 3ce45fa073f039d4d953325112db9577, type: 2}
+  pilihanJawaban: []

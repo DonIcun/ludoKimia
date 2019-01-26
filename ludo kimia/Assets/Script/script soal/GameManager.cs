@@ -17,17 +17,19 @@ public class GameManager : MonoBehaviour
 	public GameObject imageSkor;
 	public Sprite[] gambSkor;
 	public Text teksPertanyaan;
+	public Text[] nilaiplayer,nilaifinal;
 	//public Text sisaWaktuMengerjakan;
 	public Text teksSkor;
 	public PaketSoal paketSoal;
 	public Jawaban[] jawabanUser;
 	//public int waktuMenitMengerjakan = 120;
 	public int nomorSoalDitampilkan = 0;
-	public int skor;
+	public static int[] skor;
 	int soalke = -1;
 	int soalback;
 	private Jawaban jawabanBenar;
 	private int jumlahSoal;
+
 //	private int waktuDetik = 0;
 
 	private void Awake()
@@ -39,6 +41,7 @@ public class GameManager : MonoBehaviour
 	// Filename : GameManager.cs
 	private void Start()
 	{
+		skor = new int[]{ 0, 0, 0, 0, 0 };
 		jumlahSoal	= paketSoal.kumpulanSoal.Length;
 		jawabanUser = new Jawaban[jumlahSoal];
 
@@ -148,7 +151,11 @@ public class GameManager : MonoBehaviour
 	public void cekSkor(int i){
 		Soal[] kumpulanSoal = paketSoal.kumpulanSoal;
 		if (jawabanUser [i] == kumpulanSoal [i].jawabanBenar) {
-			skor += 10;
+			int nowplayer = diceRoll.player;
+			Debug.Log (nowplayer);
+			skor[nowplayer] += 10;
+			nilaiplayer [nowplayer].text = skor[nowplayer].ToString ();
+			nilaifinal [nowplayer-1].text = skor [nowplayer].ToString ();
 			teksSkor.text = "Jawaban Benar, silahkan acak dadu lagi";
 			imageSkor.GetComponent<Image> ().sprite = gambSkor [1];
 			if (playerControl.tempDadu == 6) {
@@ -180,3 +187,4 @@ public class GameManager : MonoBehaviour
 		}	
 	}
 }
+//\x208x < untuk subscribt

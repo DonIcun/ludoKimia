@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soalPertanyaan: Apa yang terjadi pada unsur dalam golongan gas mulia ketika energi-energi
     molekulnya dilemahkan pada suhu yang sangat rendah ?
-  jawabanBenar: 0
+  jawabanBenar: 2
   pilihanJawaban:
   - {fileID: 11400000, guid: 18703011b9651db4a8f44fe0f9dae6a0, type: 2}
   - {fileID: 11400000, guid: 7545606742fb5714abe42244f565a545, type: 2}

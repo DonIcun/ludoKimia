@@ -41,8 +41,8 @@ public class diceRoll : MonoBehaviour {
 
 
 		for (int i = 0; i <= 10; i++) {
-			//diberi nilai 8 untuk meningkatkan kesempatan nilai 6
-			randomDadu = Random.Range (0, 6);
+			//diberi nilai 7 untuk meningkatkan kesempatan nilai 6
+			randomDadu = Random.Range (0, 7);
 			//membuat maksimal nilai 6
 			if (randomDadu>=5){
 				nilaiDadu = 5;
