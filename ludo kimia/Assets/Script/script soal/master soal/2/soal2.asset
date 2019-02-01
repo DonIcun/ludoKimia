@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2beeb329e152e9f44b7ea13aa5974f50, type: 3}
   m_Name: soal2
   m_EditorClassIdentifier: 
-  soalPertanyaan: Senyawa gas mulia yang pada awal-awalnya dikenal dalam dalam pembentukan
+  soalPertanyaan: Senyawa gas mulia yang pada awal-awalnya dikenal dalam pembentukan
     senyawa... .
   jawabanBenar: 1
   pilihanJawaban:

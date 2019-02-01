@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
 	public Sprite[] gambSkor;
 	public Text teksPertanyaan;
 	public Text[] nilaiplayer,nilaifinal;
+	public Text tskor;
 	//public Text sisaWaktuMengerjakan;
 	public Text teksSkor;
 	public PaketSoal paketSoal;
@@ -25,6 +26,7 @@ public class GameManager : MonoBehaviour
 	//public int waktuMenitMengerjakan = 120;
 	public int nomorSoalDitampilkan = 0;
 	public static int[] skor;
+	public int skortinggi;
 	int soalke = -1;
 	int soalback;
 	private Jawaban jawabanBenar;
@@ -51,6 +53,7 @@ public class GameManager : MonoBehaviour
 		}
 		//SetSoal();
 		//InvokeRepeating("KurangiWaktuMengerjakan", 2, 1);
+		tskor.text =PlayerPrefs.GetInt ("highscore",0).ToString();
 	}
 
 	// Filename : GameManager.cs
@@ -146,6 +149,7 @@ public class GameManager : MonoBehaviour
 	{
 		jawabanUser[nomorSoalDitampilkan] = (Jawaban)jawaban;
 		cekSkor (nomorSoalDitampilkan);
+		skorfinal ();
 	}
 		
 	public void cekSkor(int i){
@@ -173,8 +177,23 @@ public class GameManager : MonoBehaviour
 		}
 		StartCoroutine ("closeSoal");
 		Debug.Log("soal "+i+" jawaban user = "+jawabanUser[i] + " | jawaban benar = " + kumpulanSoal[i].jawabanBenar);
-
 	}
+
+	public void skorfinal(){
+		for (int i = 0; i <= 4; i++) {
+			if (skor [i] > PlayerPrefs.GetInt("highscore",0)) {
+				//skortinggi = skor [i];
+				PlayerPrefs.SetInt ("highscore",skor[i]);
+				tskor.text = skor[i].ToString();
+			}
+		}
+	}
+
+	public void resetscore(){
+		PlayerPrefs.DeleteKey ("highscore");
+		tskor.text =PlayerPrefs.GetInt ("highscore",0).ToString();
+	}
+
 	public IEnumerator closeSoal(){
 		for (int i = 0; i < 5; i++) {
 			yield return new WaitForSeconds (0.25f);
@@ -186,5 +205,7 @@ public class GameManager : MonoBehaviour
 			}
 		}	
 	}
+
+
 }
 //\x208x < untuk subscribt
