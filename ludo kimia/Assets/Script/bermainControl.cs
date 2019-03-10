@@ -28,7 +28,6 @@ public class bermainControl : MonoBehaviour {
 
 	}
 		
-
 	public void Move(string playertomove){
 		string[] splitParams= playertomove.Split(',');
 		players = int.Parse(splitParams [0]);

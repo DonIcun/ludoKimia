@@ -5,27 +5,32 @@ using UnityEngine.UI;
 
 public class diceRoll : MonoBehaviour {
 	int nilaiAhir;
+	public string statusturn;
 	public Sprite[] dice;
 	private Image dadu;
-	public Text textinfo;
+	public Text textinfo,textplayturn;
 	//public static bool isEnd = false;
 	public static bool diceAllowed = true;
 	public static int player;
 	public static int langkah;
 	public static int nilaiDadu;
+	public AudioClip sounddice;
+	public AudioSource sources;
 
 	void Start () {
 		dadu = GetComponent<Image> ();
 		dice = Resources.LoadAll<Sprite>("DiceSides/");
 //		//dadu.sprite = dice [1];
 		langkah = 1;
-		player = 1;
+		player = 0;
 		cekplayer ();
+		//sources.PlayOneShot (sounddice);
 	}
 
 	public void Randomdice(){
 		if (diceAllowed) {
 			cekplayer ();
+			playsound ();
 			StartCoroutine ("RollTheDice");
 			diceAllowed = false;
 		} else {
@@ -38,9 +43,7 @@ public class diceRoll : MonoBehaviour {
 	private IEnumerator RollTheDice(){
 		int randomDadu = 0;
 		nilaiDadu = 0;
-
-
-		for (int i = 0; i <= 10; i++) {
+		for (int i = 0; i <= 15; i++) {
 			//diberi nilai 7 untuk meningkatkan kesempatan nilai 6
 			randomDadu = Random.Range (0, 7);
 			//membuat maksimal nilai 6
@@ -78,7 +81,7 @@ public class diceRoll : MonoBehaviour {
 	}
 
 	public void cekplayer(){
-		if (playerControl.jumPlayer == 2) {
+		if (PlayerPrefs.GetInt("jumplayin") == 2) {
 			switch (langkah % playerControl.jumPlayer) {
 			case 0:
 				player = 2;
@@ -93,6 +96,7 @@ public class diceRoll : MonoBehaviour {
 				player = playerControl.jumPlayer;
 			}
 		}
+		playerturn (player);
 	}
 
 	public void hitunglangkah(){
@@ -123,6 +127,29 @@ public class diceRoll : MonoBehaviour {
 				diceRoll.diceAllowed = true;
 			}
 		}
+	}
+
+	public void playsound(){
+			sources.PlayOneShot (sounddice);
+			Debug.Log ("sound played");
+	}
+
+	public void playerturn(int player){
+		switch (player) {
+		case 1:
+			statusturn = "main : hijau";
+			break;
+		case 2:
+			statusturn = "main : kuning";
+			break;
+		case 3:
+			statusturn = "main : biru";
+			break;
+		case 4:
+			statusturn = "main : merah";
+			break;
+		}
+		textplayturn.text = statusturn;
 	}
 
 }

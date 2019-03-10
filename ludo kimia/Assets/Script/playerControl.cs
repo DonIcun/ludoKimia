@@ -43,6 +43,7 @@ public class playerControl : MonoBehaviour {
 
 	public void jumlahPlayer(int jumlah){
 		jumPlayer = jumlah;
+		PlayerPrefs.SetInt("jumplayin",jumPlayer);
 		if (jumlah == 2) {
 			pinPlayer [3].SetActive (true);
 			pinPlayer [1].SetActive (true);
@@ -223,6 +224,7 @@ public class playerControl : MonoBehaviour {
 			GameManager.Singleton.SetSoal (numsoal);
 			break;	
 		}
+
 	}
 
 	public void cekPosMap(int plmove,int plpion){

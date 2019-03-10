@@ -58,7 +58,7 @@ public class contenMateri : MonoBehaviour {
 		gambarmateri2.SetActive (false);
 		isiMateri.gameObject.SetActive (false);
 		teksjudul = "Gas Mulia";
-		teksmateri ="\n Gas mulia adalah sebutan untuk unsur-unsur golongan VIIA." +
+		teksmateri ="\n Gas mulia adalah sebutan untuk unsur-unsur golongan VIIIA." +
 			"Unsur-unsur gas mulia adalah helium (He), neon (Ne), argon (Ar), kripton (Kr), xeon (Xe), dan radon (Rn)." +
 			"Gas mulia diperoleh dari udara bebas, kecuali radon diperoleh dari rongga batuan uranium. " +
 			"Helium selain diperoleh dari udara bebas juga dapat diperoleh dari pemisahan gas alam. " +

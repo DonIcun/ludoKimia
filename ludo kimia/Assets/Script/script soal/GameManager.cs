@@ -27,8 +27,8 @@ public class GameManager : MonoBehaviour
 	public int nomorSoalDitampilkan = 0;
 	public static int[] skor;
 	public int skortinggi;
-	int soalke = -1;
-	int soalback;
+	//int soalke = -1;
+	//int soalback;
 	private Jawaban jawabanBenar;
 	private int jumlahSoal;
 
@@ -57,14 +57,15 @@ public class GameManager : MonoBehaviour
 	}
 
 	// Filename : GameManager.cs
-	public void nextSoal(int i){
+	/*public void nextSoal(int i){
 		soalke = soalke + i;
 		SetSoal (soalke);
 	}
 	public void prevSoal(int i){
 		soalback = nomorSoalDitampilkan - i;
 		SetSoal (soalback);
-	}
+	}*/
+
 	public void SetSoal(int numsoal)
 	{
 		panelSoal.SetActive (true);
