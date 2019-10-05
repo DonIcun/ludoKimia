@@ -14,6 +14,7 @@ public class carabermain : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		langkahcara = 1;
+		tampillangkah(1);
 
 	}
 	
@@ -23,7 +24,7 @@ public class carabermain : MonoBehaviour {
 			btkiri.SetActive (false);
 			btkanan.SetActive (true);
 		}
-		else if (langkahcara == 9) {
+		else if (langkahcara == 11) {
 			btkiri.SetActive (true);
 			btkanan.SetActive (false);
 		}
@@ -53,48 +54,57 @@ public class carabermain : MonoBehaviour {
 		switch (value) {
 		case 1:
 			gbcara.sprite = spritecara[value -1];
-			tekscara = langkahcara+ ". Pilih Jumlah Pemain";
+			tekscara = "Pilih Jumlah Pemain. kemudain klik tombol \"bermain\"";
 			caramain.text = tekscara;
 			break;
 		case 2:
 			gbcara.sprite = spritecara[value -1];
-			tekscara = langkahcara + ". tekan tombol hijau bertuliskan \"lempar dadu\" untuk mengacak dadu";
+			tekscara = "Giliran pemain ditunjukkan pada panah merah diatas";
 			caramain.text = tekscara;
 			break;
 		case 3:
 			gbcara.sprite = spritecara[value -1];
-			tekscara = langkahcara + ". pion pemain akan berjalan sesuai dengan nilai dadu yang muncul. " +
-				"\njika nilai dadu = 6, maka pemain bisa mengacak dadu lagi ";
+			tekscara = "Tekan tombol \"lempar dadu\" untuk memulai acak dadu. ";
 			caramain.text = tekscara;
 			break;
 		case 4:
 			gbcara.sprite = spritecara[value -1];
-			tekscara = langkahcara + ". jika pion berhenti di kotak bertanda tanya, maka akan muncul pertanyaan";
+			tekscara = "Pemain harus mendapat nilai dadu 6 untuk bisa menjalankan pion pertama kali. ";
 			caramain.text = tekscara;
 			break;
 		case 5:
 			gbcara.sprite = spritecara[value -1];
-			tekscara = langkahcara + ". jika jawaban benar maka pemain mendapat nilai 10 dan bisa mengacak dadu lagi";
+			tekscara = "jika pion pemain berhenti di kotak bertanda tanya,pemain akan mendapat kesempatan untuk menjawab pertanyaan";
 			caramain.text = tekscara;
 			break;
 		case 6:
 			gbcara.sprite = spritecara[value -1];
-			tekscara = langkahcara + ". jika jawaban salah maka permainan dilanjutkan giliran pemain selanjutnya";
-			caramain.text = tekscara;
-			break;		
-		case 7:
-			gbcara.sprite = spritecara[value -1];
-			tekscara = langkahcara + ". permainan selesai jika ada pemain yang bisa menempatkan semua pionnya di titik finish";
+			tekscara = "jika jawaban salah, maka giliran pemain selesai dan dilanjutkan giliran pemain selanjutnya";
 			caramain.text = tekscara;
 			break;
+		case 7:
+			gbcara.sprite = spritecara[value -1];
+			tekscara = "jika jawaban benar maka pemain mendapat point 10 dan mendapat kesempatan mengacak dadu lagi";
+			caramain.text = tekscara;
+			break;		
 		case 8:
 			gbcara.sprite = spritecara[value -1];
-			tekscara = langkahcara + ". di akhir permainan akan ditampilkan skor dari setiap pemain";
+			tekscara = "jika pemain mendapat nilai dadu 6,maka pemain mendapat kesempatan untuk mengacak dadu lagi.";
 			caramain.text = tekscara;
 			break;
 		case 9:
 			gbcara.sprite = spritecara[value -1];
-			tekscara = langkahcara + ". pemain juga bisa melihat review jawaban yang benar dari soal yang ada";
+			tekscara = "permainan selesai jika ada pemain yang bisa menempatkan semua pionnya di titik finish";
+			caramain.text = tekscara;
+			break;
+		case 10:
+			gbcara.sprite = spritecara[value -1];
+			tekscara = "di akhir permainan akan ditampilkan total perolehan skor dari setiap pemain";
+			caramain.text = tekscara;
+			break;
+		case 11:
+			gbcara.sprite = spritecara[value -1];
+			tekscara = "pemain juga bisa melihat review jawaban yang benar dari soal yang ada di akhir permainan";
 			caramain.text = tekscara;
 			break;
 		}

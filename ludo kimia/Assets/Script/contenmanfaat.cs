@@ -7,8 +7,8 @@ using UnityEngine.SceneManagement;
 public class contenmanfaat : MonoBehaviour {
 	public Image gbmateri;
 	public Sprite he,ne,ar,kr,xe,rn;
-	public string txtjudul, txtmateri;
-	public Text judul,materi;
+	public string txtjudul, txtmateri,txmanfaat;
+	public Text judul,materi,manfaat;
 
 	// Use this for initialization
 	void Start () {
@@ -25,6 +25,8 @@ public class contenmanfaat : MonoBehaviour {
 
 	public void helium(){
 		gbmateri.gameObject.SetActive(true);
+		txmanfaat = "Balon helium";
+		manfaat.text = txmanfaat;
 		txtjudul = "Helium";
 		gbmateri.sprite = he;
 		txtmateri = "\n\tHelium digunakan sebagai:" +
@@ -38,6 +40,8 @@ public class contenmanfaat : MonoBehaviour {
 
 	public void neon(){
 		gbmateri.gameObject.SetActive(true);
+		txmanfaat = "Lampu Reklame";
+		manfaat.text = txmanfaat;
 		txtjudul = "Neon";
 		gbmateri.sprite = ne;
 		txtmateri = "\n\t Neon digunakan sebagai:" +
@@ -50,6 +54,8 @@ public class contenmanfaat : MonoBehaviour {
 	}
 	public void argon(){
 		gbmateri.gameObject.SetActive(true);
+		txmanfaat = "Lampu Pijar";
+		manfaat.text = txmanfaat;
 		txtjudul = "Argon";
 		gbmateri.sprite = ar;
 		txtmateri = "\n\t Argon digunakan sebagai:" +
@@ -62,6 +68,8 @@ public class contenmanfaat : MonoBehaviour {
 	}
 	public void kripton(){
 		gbmateri.gameObject.SetActive(true);
+		txmanfaat = "Lampu fluoresensi";
+		manfaat.text = txmanfaat;
 		txtjudul = "Kripton";
 		gbmateri.sprite = kr;
 		txtmateri = "\n\t Kripton digunakan bersama sama dengan argon untuk:" +
@@ -73,6 +81,8 @@ public class contenmanfaat : MonoBehaviour {
 	}
 	public void xenon(){
 		gbmateri.gameObject.SetActive(true);
+		txmanfaat = "Lampu strobo";
+		manfaat.text = txmanfaat;
 		txtjudul = "Xenon";
 		gbmateri.sprite = xe;
 		txtmateri = "\n\t Xenon digunakan sebagai:" +
@@ -86,6 +96,8 @@ public class contenmanfaat : MonoBehaviour {
 	}
 	public void radon(){
 		gbmateri.gameObject.SetActive(true);
+		txmanfaat = "Terapi radiasi bagi penderita kanker";
+		manfaat.text = txmanfaat;
 		txtjudul = "Radon";
 		gbmateri.sprite = rn;
 		txtmateri = "\n\tGas radon bersifat radioaktif sehingga banyak digunakan untuk:" +

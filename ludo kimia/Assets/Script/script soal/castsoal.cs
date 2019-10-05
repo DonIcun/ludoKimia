@@ -48,31 +48,31 @@ public class castsoal : MonoBehaviour {
 
 	public void tampiljawaban(){
 		Soal[] kumpulansoal = GameManager.Singleton.paketSoal.kumpulanSoal;
-		if (kumpulansoal [nomorSoalDitampilkan].jawabanBenar.ToString().Equals("A")) {
+		if (kumpulansoal [nomorSoalDitampilkan-1].jawabanBenar.ToString().Equals("A")) {
 			bta.sprite = btbenar;
 		} else {
 			bta.sprite = btsalah;
 		}
 
-		if (kumpulansoal [nomorSoalDitampilkan].jawabanBenar.ToString().Equals("B")) {
+		if (kumpulansoal [nomorSoalDitampilkan-1].jawabanBenar.ToString().Equals("B")) {
 			btb.sprite = btbenar;
 		} else {
 			btb.sprite = btsalah;
 		}
 
-		if (kumpulansoal [nomorSoalDitampilkan].jawabanBenar.ToString().Equals("C")) {
+		if (kumpulansoal [nomorSoalDitampilkan-1].jawabanBenar.ToString().Equals("C")) {
 			btc.sprite = btbenar;
 		} else {
 			btc.sprite = btsalah;
 		}
 
-		if (kumpulansoal [nomorSoalDitampilkan].jawabanBenar.ToString().Equals("D")) {
+		if (kumpulansoal [nomorSoalDitampilkan-1].jawabanBenar.ToString().Equals("D")) {
 			btd.sprite = btbenar;
 		} else {
 			btd.sprite = btsalah;
 		}
 
-		Debug.Log ("no "+nomorSoalDitampilkan+" . "+kumpulansoal [nomorSoalDitampilkan].jawabanBenar);
+		Debug.Log ("no "+nomorSoalDitampilkan+" . "+kumpulansoal [nomorSoalDitampilkan-1].jawabanBenar);
 
 	}
 }
